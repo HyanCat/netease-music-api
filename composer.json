@@ -1,0 +1,19 @@
+{
+    "name": "hyancat/netease-music-api",
+    "type": "library",
+    "authors": [
+        {
+            "name": "HyanCat",
+            "email": "hyancat@live.cn"
+        }
+    ],
+    "require": {
+        "php-curl-class/php-curl-class": "^7.0",
+        "phpseclib/phpseclib": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HyanCat\\NeteaseMusic\\": "src/"
+        }
+    }
+}
