@@ -116,8 +116,8 @@ class NeteaseAPI
 
     /**
      * 歌曲资源.
-     * @param     $songID  歌曲 ID
-     * @param int $quality 歌曲比特率
+     * @param  int $songID  歌曲 ID
+     * @param int  $quality 歌曲比特率
      * @return array|null
      */
     public function songResource($songID, $quality = 320)

@@ -13,12 +13,3 @@ class NeteaseException extends \Exception
         parent::__construct($message, $code);
     }
 }
-
-/**
- * Class NeteaseVipException
- * @namespace NeteaseMusic
- */
-class NeteaseVipException extends NeteaseException
-{
-
-}
